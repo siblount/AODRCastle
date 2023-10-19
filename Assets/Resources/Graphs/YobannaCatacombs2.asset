@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: YobannaCatacombs2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 179677f7-ba5f-4dac-8ba9-822b957f912b
+    PortName: Next
+    TargetNodeGuid: 7599d0c8-9d34-4636-9da2-7e46725d91ff
+  - BaseNodeGuid: 7599d0c8-9d34-4636-9da2-7e46725d91ff
+    PortName: Next Dialog
+    TargetNodeGuid: c4da00a7-874e-43b0-aee2-db6dabb15e53
+  - BaseNodeGuid: c4da00a7-874e-43b0-aee2-db6dabb15e53
+    PortName: Are you feeling okay?
+    TargetNodeGuid: 0f88548c-2d48-41d8-ac7a-43af26a02866
+  - BaseNodeGuid: 0f88548c-2d48-41d8-ac7a-43af26a02866
+    PortName: Next Dialog
+    TargetNodeGuid: 2abdbcb6-5ba6-4260-8a3e-0ef7811b0b6b
+  - BaseNodeGuid: c4da00a7-874e-43b0-aee2-db6dabb15e53
+    PortName: How do you fight?
+    TargetNodeGuid: 9d7d1c9e-fe0a-48ae-8105-85d843fd43f3
+  - BaseNodeGuid: 9d7d1c9e-fe0a-48ae-8105-85d843fd43f3
+    PortName: Next Dialog
+    TargetNodeGuid: 75d07f0f-c1a5-42bb-a706-0481ac0d5911
+  DialogNodes:
+  - Guid: 7599d0c8-9d34-4636-9da2-7e46725d91ff
+    Content:
+      characterID: 3b63e3f9-65cf-41cf-85f3-1641e7efd64b
+      emotion: 0
+      DialogText: Hello?
+    Position: {x: 248.8, y: 156}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: c4da00a7-874e-43b0-aee2-db6dabb15e53
+    Content:
+      characterID: 3b63e3f9-65cf-41cf-85f3-1641e7efd64b
+      emotion: 0
+      DialogText: '?'
+    Position: {x: 563.2, y: 156}
+    Type: 2
+    Choices:
+    - Are you feeling okay?
+    - How do you fight?
+  - Guid: 0f88548c-2d48-41d8-ac7a-43af26a02866
+    Content:
+      characterID: 3b63e3f9-65cf-41cf-85f3-1641e7efd64b
+      emotion: 0
+      DialogText: ...
+    Position: {x: 1076, y: 42.4}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 2abdbcb6-5ba6-4260-8a3e-0ef7811b0b6b
+    Content:
+      characterID: 3b63e3f9-65cf-41cf-85f3-1641e7efd64b
+      emotion: 0
+      DialogText: Yeppers!
+    Position: {x: 1380, y: 42.4}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 9d7d1c9e-fe0a-48ae-8105-85d843fd43f3
+    Content:
+      characterID: 3b63e3f9-65cf-41cf-85f3-1641e7efd64b
+      emotion: 0
+      DialogText: ...
+    Position: {x: 1119.2, y: 317.6}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 75d07f0f-c1a5-42bb-a706-0481ac0d5911
+    Content:
+      characterID: 3b63e3f9-65cf-41cf-85f3-1641e7efd64b
+      emotion: 0
+      DialogText: angrily
+    Position: {x: 1452, y: 317.6}
+    Type: 1
+    Choices:
+    - Next Dialog

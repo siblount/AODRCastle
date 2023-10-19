@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: FlameRepellingPaper
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 2154cae9-0062-4c86-bd18-9382e914a7b7
+    PortName: Next
+    TargetNodeGuid: 15aba704-74cc-4b38-89b9-4367f69107d9
+  - BaseNodeGuid: 15aba704-74cc-4b38-89b9-4367f69107d9
+    PortName: Next Dialog
+    TargetNodeGuid: e05458c5-fd87-497a-86b1-e531c06a1df6
+  - BaseNodeGuid: e05458c5-fd87-497a-86b1-e531c06a1df6
+    PortName: Next Dialog
+    TargetNodeGuid: d205320a-ed03-42f5-a493-99a4bf1217f3
+  - BaseNodeGuid: d205320a-ed03-42f5-a493-99a4bf1217f3
+    PortName: Next Dialog
+    TargetNodeGuid: f87ee8ee-3336-4d9d-8db7-4778ae41f6b3
+  - BaseNodeGuid: f87ee8ee-3336-4d9d-8db7-4778ae41f6b3
+    PortName: Next Dialog
+    TargetNodeGuid: 87c12345-8bb7-4a94-81a9-e3dacad7f477
+  - BaseNodeGuid: 87c12345-8bb7-4a94-81a9-e3dacad7f477
+    PortName: Next Dialog
+    TargetNodeGuid: 653a8450-0b1d-438a-893b-08084276a2f5
+  DialogNodes:
+  - Guid: 15aba704-74cc-4b38-89b9-4367f69107d9
+    Content:
+      characterID: 4ac5b96a-71a0-4a83-9f1d-ab71447da44a
+      emotion: 0
+      DialogText: This piece of paper you find seems... boring.
+    Position: {x: 332.8, y: 173.59999}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: e05458c5-fd87-497a-86b1-e531c06a1df6
+    Content:
+      characterID: 4ac5b96a-71a0-4a83-9f1d-ab71447da44a
+      emotion: 0
+      DialogText: Seeing that you came to a chest -
+    Position: {x: 699.2, y: 173.59999}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: d205320a-ed03-42f5-a493-99a4bf1217f3
+    Content:
+      characterID: 4ac5b96a-71a0-4a83-9f1d-ab71447da44a
+      emotion: 0
+      DialogText: And there's NO treasure
+    Position: {x: 966.4, y: 173.59999}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: f87ee8ee-3336-4d9d-8db7-4778ae41f6b3
+    Content:
+      characterID: 4ac5b96a-71a0-4a83-9f1d-ab71447da44a
+      emotion: 0
+      DialogText: You try to burn it
+    Position: {x: 1230.4, y: 173.59999}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 87c12345-8bb7-4a94-81a9-e3dacad7f477
+    Content:
+      characterID: 4ac5b96a-71a0-4a83-9f1d-ab71447da44a
+      emotion: 0
+      DialogText: It's fire resistant. You can use this
+    Position: {x: 1495.2, y: 173.59999}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 653a8450-0b1d-438a-893b-08084276a2f5
+    Content:
+      characterID: 4ac5b96a-71a0-4a83-9f1d-ab71447da44a
+      emotion: 0
+      DialogText: But where?
+    Position: {x: 1827.2, y: 173.59999}
+    Type: 1
+    Choices:
+    - Next Dialog

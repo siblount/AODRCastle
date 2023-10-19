@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: UchuCourtyard 1
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 179677f7-ba5f-4dac-8ba9-822b957f912b
+    PortName: Next
+    TargetNodeGuid: 74609af4-56d6-40ed-82c1-f4adf245f13f
+  - BaseNodeGuid: 74609af4-56d6-40ed-82c1-f4adf245f13f
+    PortName: Next Dialog
+    TargetNodeGuid: 51e0a7df-1c8d-446c-83b4-19d5d402a67d
+  - BaseNodeGuid: 51e0a7df-1c8d-446c-83b4-19d5d402a67d
+    PortName: Next Dialog
+    TargetNodeGuid: 00b6c393-86ce-4d49-aa94-cdcc48bed8fd
+  - BaseNodeGuid: 00b6c393-86ce-4d49-aa94-cdcc48bed8fd
+    PortName: Next Dialog
+    TargetNodeGuid: e8ee4cb2-bdee-4910-a3a6-f12ec4660b67
+  - BaseNodeGuid: e8ee4cb2-bdee-4910-a3a6-f12ec4660b67
+    PortName: Next Dialog
+    TargetNodeGuid: 318cb8bf-9999-4843-8a19-bc345f1df9b1
+  - BaseNodeGuid: 318cb8bf-9999-4843-8a19-bc345f1df9b1
+    PortName: Next Dialog
+    TargetNodeGuid: a63f1c6f-71c5-415b-acb9-897490a88c51
+  - BaseNodeGuid: a63f1c6f-71c5-415b-acb9-897490a88c51
+    PortName: Next Dialog
+    TargetNodeGuid: 115a4132-38ae-4793-a900-dc642cf07514
+  DialogNodes:
+  - Guid: 74609af4-56d6-40ed-82c1-f4adf245f13f
+    Content:
+      characterID: 4ac5b96a-71a0-4a83-9f1d-ab71447da44a
+      emotion: 0
+      DialogText: The ground in front of you is completely drained of all life.
+    Position: {x: 339.2, y: 68}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 51e0a7df-1c8d-446c-83b4-19d5d402a67d
+    Content:
+      characterID: 4ac5b96a-71a0-4a83-9f1d-ab71447da44a
+      emotion: 0
+      DialogText: Grass grinds to dust under your feet. The man responsible is clear
+        -
+    Position: {x: 712.8, y: 182.4}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 00b6c393-86ce-4d49-aa94-cdcc48bed8fd
+    Content:
+      characterID: 4ac5b96a-71a0-4a83-9f1d-ab71447da44a
+      emotion: 0
+      DialogText: The death swordsman in front of you.
+    Position: {x: 1040, y: 124}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: e8ee4cb2-bdee-4910-a3a6-f12ec4660b67
+    Content:
+      characterID: eaddc4fb-b7cb-489d-8356-ca0f62adbe83
+      emotion: 0
+      DialogText: Hey, its good to see a friendly face. My name is Uchukowazi.
+    Position: {x: 1408.8, y: 133.59999}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 318cb8bf-9999-4843-8a19-bc345f1df9b1
+    Content:
+      characterID: 4ac5b96a-71a0-4a83-9f1d-ab71447da44a
+      emotion: 0
+      DialogText: "He\u2019s grabbing his face and grimacing. You get close and use
+        the necessary elixirs."
+    Position: {x: 1736.8, y: 48.000004}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: a63f1c6f-71c5-415b-acb9-897490a88c51
+    Content:
+      characterID: eaddc4fb-b7cb-489d-8356-ca0f62adbe83
+      emotion: 0
+      DialogText: My powers erupted. We took down two golems - but theres one more.
+    Position: {x: 2073.6, y: 34.4}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 115a4132-38ae-4793-a900-dc642cf07514
+    Content:
+      characterID: eaddc4fb-b7cb-489d-8356-ca0f62adbe83
+      emotion: 0
+      DialogText: Fiora is stuck - can you help me save her?
+    Position: {x: 2455.2, y: -11.999999}
+    Type: 1
+    Choices:
+    - Next Dialog

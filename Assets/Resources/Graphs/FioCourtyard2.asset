@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: FioCourtyard2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 179677f7-ba5f-4dac-8ba9-822b957f912b
+    PortName: Next
+    TargetNodeGuid: 6c58448c-2ec6-4ba6-9eed-d976484fa2d2
+  - BaseNodeGuid: 9daf8259-1755-4d6f-9c5e-98f1641f954d
+    PortName: Next Dialog
+    TargetNodeGuid: 2ce49372-43c4-41ae-82bd-5bf51278b109
+  - BaseNodeGuid: 2ce49372-43c4-41ae-82bd-5bf51278b109
+    PortName: Next Dialog
+    TargetNodeGuid: 1a8d0182-e2f9-444b-8de5-39766fe0dbd7
+  - BaseNodeGuid: 6c58448c-2ec6-4ba6-9eed-d976484fa2d2
+    PortName: Next Dialog
+    TargetNodeGuid: 76757c3c-3735-4304-8f8e-796cb04a5ef0
+  - BaseNodeGuid: 76757c3c-3735-4304-8f8e-796cb04a5ef0
+    PortName: Why are you in a box?
+    TargetNodeGuid: d9b74836-4117-4882-956d-0b78f11fd9d3
+  - BaseNodeGuid: d9b74836-4117-4882-956d-0b78f11fd9d3
+    PortName: Next Dialog
+    TargetNodeGuid: c94319e3-5cd1-49a2-9bf2-c2671b74d8ff
+  - BaseNodeGuid: c94319e3-5cd1-49a2-9bf2-c2671b74d8ff
+    PortName: Next Dialog
+    TargetNodeGuid: baff19dc-414a-4d8b-84a0-f98f3b9a49e6
+  - BaseNodeGuid: baff19dc-414a-4d8b-84a0-f98f3b9a49e6
+    PortName: Next Dialog
+    TargetNodeGuid: 08c8e8b8-c667-4241-b12a-a96a31d97b5f
+  - BaseNodeGuid: 3c453e48-5565-43e2-b93f-d9204e6d1e90
+    PortName: No
+    TargetNodeGuid: 99f5911f-fd21-40d7-8f0d-66ec90d816e7
+  - BaseNodeGuid: 08c8e8b8-c667-4241-b12a-a96a31d97b5f
+    PortName: Next Dialog
+    TargetNodeGuid: 3c453e48-5565-43e2-b93f-d9204e6d1e90
+  - BaseNodeGuid: 3c453e48-5565-43e2-b93f-d9204e6d1e90
+    PortName: Yep.
+    TargetNodeGuid: e1423d89-6e83-4bfb-91ce-414ee1ceb9a4
+  - BaseNodeGuid: 76757c3c-3735-4304-8f8e-796cb04a5ef0
+    PortName: Were you trapped?
+    TargetNodeGuid: 82bf25c1-2caa-426f-afeb-37f42d239205
+  - BaseNodeGuid: 82bf25c1-2caa-426f-afeb-37f42d239205
+    PortName: Next Dialog
+    TargetNodeGuid: 9daf8259-1755-4d6f-9c5e-98f1641f954d
+  DialogNodes:
+  - Guid: 6c58448c-2ec6-4ba6-9eed-d976484fa2d2
+    Content:
+      characterID: 3a250c8b-e1fe-4468-bf6f-bd0a64660add
+      emotion: 0
+      DialogText: Yo! Whats up!
+    Position: {x: 212, y: 86.399994}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 2ce49372-43c4-41ae-82bd-5bf51278b109
+    Content:
+      characterID: 3a250c8b-e1fe-4468-bf6f-bd0a64660add
+      emotion: 0
+      DialogText: That golem had some special enchatments on it.
+    Position: {x: 1729.6, y: 335.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 1a8d0182-e2f9-444b-8de5-39766fe0dbd7
+    Content:
+      characterID: 3a250c8b-e1fe-4468-bf6f-bd0a64660add
+      emotion: 0
+      DialogText: Good thing you came along, I wouldn't have been able to take it!
+    Position: {x: 2038.4, y: 343.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 76757c3c-3735-4304-8f8e-796cb04a5ef0
+    Content:
+      characterID: 3a250c8b-e1fe-4468-bf6f-bd0a64660add
+      emotion: 0
+      DialogText: Feeling peachy?
+    Position: {x: 504.8, y: 86.399994}
+    Type: 2
+    Choices:
+    - Why are you in a box?
+    - Were you trapped?
+  - Guid: d9b74836-4117-4882-956d-0b78f11fd9d3
+    Content:
+      characterID: 3a250c8b-e1fe-4468-bf6f-bd0a64660add
+      emotion: 0
+      DialogText: Grr! It's not just a box! It's my hiding spot!
+    Position: {x: 1057.6, y: 59.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: c94319e3-5cd1-49a2-9bf2-c2671b74d8ff
+    Content:
+      characterID: 3a250c8b-e1fe-4468-bf6f-bd0a64660add
+      emotion: 0
+      DialogText: This cost me 3 months salary to get this!
+    Position: {x: 1408.8, y: 59.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: baff19dc-414a-4d8b-84a0-f98f3b9a49e6
+    Content:
+      characterID: 3a250c8b-e1fe-4468-bf6f-bd0a64660add
+      emotion: 0
+      DialogText: Or, at least it would've if I didn't take it from someone else.
+    Position: {x: 1729.6, y: 59.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 08c8e8b8-c667-4241-b12a-a96a31d97b5f
+    Content:
+      characterID: 3a250c8b-e1fe-4468-bf6f-bd0a64660add
+      emotion: 0
+      DialogText: It's enchanted to hide from constructs AND undead AND magical beings
+    Position: {x: 2104.8, y: 59.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 99f5911f-fd21-40d7-8f0d-66ec90d816e7
+    Content:
+      characterID: 3a250c8b-e1fe-4468-bf6f-bd0a64660add
+      emotion: 0
+      DialogText: Grr! Hater!
+    Position: {x: 2914.4, y: -36.8}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 3c453e48-5565-43e2-b93f-d9204e6d1e90
+    Content:
+      characterID: 3a250c8b-e1fe-4468-bf6f-bd0a64660add
+      emotion: 0
+      DialogText: Pretty cool right?
+    Position: {x: 2434.4, y: 12}
+    Type: 2
+    Choices:
+    - No
+    - Yep.
+  - Guid: e1423d89-6e83-4bfb-91ce-414ee1ceb9a4
+    Content:
+      characterID: 3a250c8b-e1fe-4468-bf6f-bd0a64660add
+      emotion: 0
+      DialogText: See! Now you understand.
+    Position: {x: 2914.4, y: 203.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 82bf25c1-2caa-426f-afeb-37f42d239205
+    Content:
+      characterID: 3a250c8b-e1fe-4468-bf6f-bd0a64660add
+      emotion: 0
+      DialogText: N-NO! I could've got out myself.
+    Position: {x: 1176, y: 335.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 9daf8259-1755-4d6f-9c5e-98f1641f954d
+    Content:
+      characterID: 3a250c8b-e1fe-4468-bf6f-bd0a64660add
+      emotion: 0
+      DialogText: I appreciate the help though.
+    Position: {x: 1447.2, y: 335.2}
+    Type: 1
+    Choices:
+    - Next Dialog

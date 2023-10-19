@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0688a1f8ad5813141885922b05f70558, type: 3}
+  m_Name: WearableDatabase
+  m_EditorClassIdentifier: 
+  wearables:
+  - {fileID: 11400000, guid: d0ac84d91ebfacf47a298fba3a772823, type: 2}
+  - {fileID: 11400000, guid: 1c4e712a7a084f04a88bd0f63e169a54, type: 2}
+  - {fileID: 11400000, guid: d984d1bc4f87ddf4a9b1d689a18f1f59, type: 2}
+  - {fileID: 11400000, guid: e488c13756fe77049a60d83f79c10367, type: 2}
+  - {fileID: 11400000, guid: 1e4057ec9ec25434183bb81b3f7d7438, type: 2}
+  - {fileID: 11400000, guid: 2e05242f9e1e5374b81bb2419f6b9677, type: 2}
+  - {fileID: 11400000, guid: e24b0cb8eece60549be6e25342241f5e, type: 2}
+  - {fileID: 11400000, guid: 42c616f6476da3e4394893c4d62562de, type: 2}
+  - {fileID: 11400000, guid: 0055f951a177fae43878f39080e9d3b5, type: 2}

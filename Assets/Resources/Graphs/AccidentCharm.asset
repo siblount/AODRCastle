@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: AccidentCharm
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: bb22e7be-5644-4eeb-a9a4-2125472054b7
+    PortName: Next
+    TargetNodeGuid: a76638b9-437c-441d-acc0-bc9f8f15807f
+  - BaseNodeGuid: a76638b9-437c-441d-acc0-bc9f8f15807f
+    PortName: Next Dialog
+    TargetNodeGuid: 951d3f0a-2bcc-4bb2-84f6-ce3f7d8b1479
+  - BaseNodeGuid: 951d3f0a-2bcc-4bb2-84f6-ce3f7d8b1479
+    PortName: Next Dialog
+    TargetNodeGuid: 3f0754bc-263d-4e4a-8565-6060c09e2490
+  - BaseNodeGuid: 3f0754bc-263d-4e4a-8565-6060c09e2490
+    PortName: Next Dialog
+    TargetNodeGuid: 819299b8-e6fe-4c73-ab1b-d054d339ae89
+  DialogNodes:
+  - Guid: a76638b9-437c-441d-acc0-bc9f8f15807f
+    Content:
+      characterID: 4ac5b96a-71a0-4a83-9f1d-ab71447da44a
+      emotion: 0
+      DialogText: Wow! Suprising to see this.
+    Position: {x: 280.8, y: 200}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 951d3f0a-2bcc-4bb2-84f6-ce3f7d8b1479
+    Content:
+      characterID: 4ac5b96a-71a0-4a83-9f1d-ab71447da44a
+      emotion: 0
+      DialogText: It's an old training charm for firespellswordsman
+    Position: {x: 561.6, y: 200}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 3f0754bc-263d-4e4a-8565-6060c09e2490
+    Content:
+      characterID: 4ac5b96a-71a0-4a83-9f1d-ab71447da44a
+      emotion: 0
+      DialogText: Basically, it prevents you from exploding.
+    Position: {x: 881.6, y: 200}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 819299b8-e6fe-4c73-ab1b-d054d339ae89
+    Content:
+      characterID: 4ac5b96a-71a0-4a83-9f1d-ab71447da44a
+      emotion: 0
+      DialogText: Good to know!
+    Position: {x: 1246.4, y: 200}
+    Type: 1
+    Choices:
+    - Next Dialog

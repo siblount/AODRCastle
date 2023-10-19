@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: UchuCourtz2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 179677f7-ba5f-4dac-8ba9-822b957f912b
+    PortName: Next
+    TargetNodeGuid: 74609af4-56d6-40ed-82c1-f4adf245f13f
+  - BaseNodeGuid: 585c340a-5154-49ef-85e6-9032a9d8c486
+    PortName: Next Dialog
+    TargetNodeGuid: 0bede0dc-2ba7-4980-8447-f2b1e8620243
+  - BaseNodeGuid: 2cdd42c2-3c21-4ff2-b0ed-45da485d420d
+    PortName: Next Dialog
+    TargetNodeGuid: 94b72bdd-a265-470f-967f-92e1db706408
+  - BaseNodeGuid: f50593d2-3f5b-4577-99ac-ff10e31df7e6
+    PortName: What happened here?
+    TargetNodeGuid: eb8d1092-a61d-45b2-8fd5-e9fc0a97741d
+  - BaseNodeGuid: eb8d1092-a61d-45b2-8fd5-e9fc0a97741d
+    PortName: Next Dialog
+    TargetNodeGuid: b23fad4a-750e-4aef-a4b6-df09ed7ed8e8
+  - BaseNodeGuid: b23fad4a-750e-4aef-a4b6-df09ed7ed8e8
+    PortName: Next Dialog
+    TargetNodeGuid: 585c340a-5154-49ef-85e6-9032a9d8c486
+  - BaseNodeGuid: 4930d0f5-adb9-4e3b-a611-8be4bba5a393
+    PortName: Next Dialog
+    TargetNodeGuid: 2cdd42c2-3c21-4ff2-b0ed-45da485d420d
+  - BaseNodeGuid: 74609af4-56d6-40ed-82c1-f4adf245f13f
+    PortName: Next Dialog
+    TargetNodeGuid: f50593d2-3f5b-4577-99ac-ff10e31df7e6
+  - BaseNodeGuid: f50593d2-3f5b-4577-99ac-ff10e31df7e6
+    PortName: Death spellsword magic?
+    TargetNodeGuid: 00b6c393-86ce-4d49-aa94-cdcc48bed8fd
+  - BaseNodeGuid: 00b6c393-86ce-4d49-aa94-cdcc48bed8fd
+    PortName: Next Dialog
+    TargetNodeGuid: 4930d0f5-adb9-4e3b-a611-8be4bba5a393
+  DialogNodes:
+  - Guid: 74609af4-56d6-40ed-82c1-f4adf245f13f
+    Content:
+      characterID: eaddc4fb-b7cb-489d-8356-ca0f62adbe83
+      emotion: 0
+      DialogText: Another spellsword user! Nice to see!
+    Position: {x: 216, y: 10.400002}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 0bede0dc-2ba7-4980-8447-f2b1e8620243
+    Content:
+      characterID: eaddc4fb-b7cb-489d-8356-ca0f62adbe83
+      emotion: 0
+      DialogText: Good thing you came to help when you did. I'm okay now
+    Position: {x: 2107.2, y: 83.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 94b72bdd-a265-470f-967f-92e1db706408
+    Content:
+      characterID: eaddc4fb-b7cb-489d-8356-ca0f62adbe83
+      emotion: 0
+      DialogText: I'm a little annoyed that we aren't fighting more undead - that
+        is where my forte is.
+    Position: {x: 2089.6, y: -246.40001}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: eb8d1092-a61d-45b2-8fd5-e9fc0a97741d
+    Content:
+      characterID: eaddc4fb-b7cb-489d-8356-ca0f62adbe83
+      emotion: 0
+      DialogText: Spellsword moment.
+    Position: {x: 1076, y: 172}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: b23fad4a-750e-4aef-a4b6-df09ed7ed8e8
+    Content:
+      characterID: eaddc4fb-b7cb-489d-8356-ca0f62adbe83
+      emotion: 0
+      DialogText: I lost control, draining most of the life here
+    Position: {x: 1468.8, y: 142.4}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 585c340a-5154-49ef-85e6-9032a9d8c486
+    Content:
+      characterID: eaddc4fb-b7cb-489d-8356-ca0f62adbe83
+      emotion: 0
+      DialogText: Especially my own. I'm extremely tired and bleeding everywhere,
+        but I'm okay.
+    Position: {x: 1807.2, y: 112}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 2cdd42c2-3c21-4ff2-b0ed-45da485d420d
+    Content:
+      characterID: eaddc4fb-b7cb-489d-8356-ca0f62adbe83
+      emotion: 0
+      DialogText: -At least according to the legends. Most of us are pretty chill.
+    Position: {x: 1751.2, y: -229.6}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: f50593d2-3f5b-4577-99ac-ff10e31df7e6
+    Content:
+      characterID: eaddc4fb-b7cb-489d-8356-ca0f62adbe83
+      emotion: 0
+      DialogText: What's on your mind?
+    Position: {x: 512.8, y: 10.400002}
+    Type: 2
+    Choices:
+    - Death spellsword magic?
+    - What happened here?
+  - Guid: 00b6c393-86ce-4d49-aa94-cdcc48bed8fd
+    Content:
+      characterID: eaddc4fb-b7cb-489d-8356-ca0f62adbe83
+      emotion: 0
+      DialogText: Ah yes, death spellsword magic. A rare pick.
+    Position: {x: 1061.6, y: -116}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 4930d0f5-adb9-4e3b-a611-8be4bba5a393
+    Content:
+      characterID: eaddc4fb-b7cb-489d-8356-ca0f62adbe83
+      emotion: 0
+      DialogText: Much like how fire users give off heat, we give off negative vibes
+    Position: {x: 1442.4, y: -172.8}
+    Type: 1
+    Choices:
+    - Next Dialog

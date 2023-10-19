@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f217856914be2ae4291cb1e1bafb791d, type: 3}
+  m_Name: ShatterstrikeAbility
+  m_EditorClassIdentifier: 
+  NameRaw: Shatterstrike
+  Description: "A devastating strike that breaks the target\u2019s armor for the
+    next attack, making them more susceptible to damage."
+  Level: 1
+  Persistent: 1
+  AttackAbility: 1
+  UpgradeDescriptionsPerLevel: []
+  AssociatedStatus: {fileID: 11400000, guid: 31b593e3bf3691048a4f886281297bb8, type: 2}
+  AttackStats: {fileID: 11400000, guid: 0411a2661363e2947981f2581c06b1af, type: 2}
+  WorkingAttackStats: {fileID: 0}
+  Owner:
+    ActiveStatuses: []
+    Stats: {fileID: 0}
+    health: 0
+    baseDamage: 0
+    maxHealth: 0
+    damageMultiplier: 1

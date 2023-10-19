@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deb4ce7148aa2454e92c7af85a6d7719, type: 3}
+  m_Name: Heal Ability
+  m_EditorClassIdentifier: 
+  NameRaw: Mending
+  Description: Restore some health and lower your heat, but sacrifice some of your
+    attack power.
+  Level: 1
+  Persistent: 1
+  AttackAbility: 0
+  UpgradeDescriptionsPerLevel:
+  - <b>Heat</b> production is halted while mending.
+  - <b>Heat</b> is reduced by a moderate amount.
+  - Damage nerf is removed from mending effect.
+  AssociatedStatus: {fileID: 11400000, guid: c3822222a13f8564d8bb952fe7c1963c, type: 2}
+  AttackStats: {fileID: 0}
+  WorkingAttackStats: {fileID: 0}
+  Owner:
+    ActiveStatuses: []
+    Stats: {fileID: 0}
+    health: 0
+    baseDamage: 0
+    maxHealth: 0
+    damageMultiplier: 1

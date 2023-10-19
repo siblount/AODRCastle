@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: AckleyCatacombs1
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 179677f7-ba5f-4dac-8ba9-822b957f912b
+    PortName: Next
+    TargetNodeGuid: 7599d0c8-9d34-4636-9da2-7e46725d91ff
+  - BaseNodeGuid: 9975c8b2-efb9-45cb-9ab8-4a7660e3c573
+    PortName: Next Dialog
+    TargetNodeGuid: 02911c64-1914-465e-bbc2-abe15fbc6663
+  - BaseNodeGuid: 7599d0c8-9d34-4636-9da2-7e46725d91ff
+    PortName: Next Dialog
+    TargetNodeGuid: d530c641-4f42-4950-b757-5f71361d1007
+  - BaseNodeGuid: d530c641-4f42-4950-b757-5f71361d1007
+    PortName: Next Dialog
+    TargetNodeGuid: 9975c8b2-efb9-45cb-9ab8-4a7660e3c573
+  DialogNodes:
+  - Guid: 7599d0c8-9d34-4636-9da2-7e46725d91ff
+    Content:
+      characterID: 1ef74cc7-3194-4c69-8d69-f33a3b5cc1b8
+      emotion: 0
+      DialogText: ......
+    Position: {x: 235.2, y: 163.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 02911c64-1914-465e-bbc2-abe15fbc6663
+    Content:
+      characterID: 1ef74cc7-3194-4c69-8d69-f33a3b5cc1b8
+      emotion: 0
+      DialogText: Leave me here.... I can't fight well.
+    Position: {x: 1719.2, y: 163.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: d530c641-4f42-4950-b757-5f71361d1007
+    Content:
+      characterID: 1ef74cc7-3194-4c69-8d69-f33a3b5cc1b8
+      emotion: 0
+      DialogText: Wait no! Don't eat me! I taste like sandpaper!
+    Position: {x: 1095.2, y: 163.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 9975c8b2-efb9-45cb-9ab8-4a7660e3c573
+    Content:
+      characterID: 1ef74cc7-3194-4c69-8d69-f33a3b5cc1b8
+      emotion: 0
+      DialogText: Hang on... You're with us! Yes!
+    Position: {x: 1411.2, y: 163.2}
+    Type: 1
+    Choices:
+    - Next Dialog

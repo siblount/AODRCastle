@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d39114f4f6e4fd47810ab9cba0f5025, type: 3}
+  m_Name: Fireball Ability
+  m_EditorClassIdentifier: 
+  NameRaw: Fireball
+  Description: A blazing projectile that burns all players and raises their temperature.
+  Level: 1
+  Persistent: 0
+  AttackAbility: 1
+  UpgradeDescriptionsPerLevel:
+  - AP is increased to 4 (from 2).
+  - DMG from this attack is <b>DOUBLED</b>.
+  AssociatedStatus: {fileID: 0}
+  AttackStats: {fileID: 11400000, guid: 72ed4c0fcec62f84dbd6c9995005cb58, type: 2}
+  WorkingAttackStats: {fileID: 0}
+  Owner:
+    ActiveStatuses: []
+    Stats: {fileID: 0}
+    health: 0
+    baseDamage: 0
+    maxHealth: 0
+    damageMultiplier: 1
+  TargettingTarget: 1

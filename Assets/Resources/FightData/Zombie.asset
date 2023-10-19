@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf6d4bf67a1dc9e47a9c9f6e69ea0d04, type: 3}
+  m_Name: Zombie
+  m_EditorClassIdentifier: 
+  Name: Zombie
+  HP: 3
+  DMG: 1
+  AP: 2
+  DEF: 1
+  Avatar: {fileID: 0}
+  Abilities:
+  - {fileID: 11400000, guid: 0aaeb0f0441bcbd4e94ca4f17c671f0a, type: 2}
+  - {fileID: 11400000, guid: 2305ae72758056c42bd44fc85cd88534, type: 2}
+  CurrentWearable: {fileID: 0}
+  Wearables: []

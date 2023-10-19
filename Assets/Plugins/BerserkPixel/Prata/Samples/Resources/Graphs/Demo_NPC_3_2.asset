@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: Demo_NPC_3_2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 37b06ade-2941-491f-9a06-289c43795ec4
+    PortName: Next
+    TargetNodeGuid: dd80e189-a621-42dd-be01-e835d8fa9597
+  - BaseNodeGuid: dd80e189-a621-42dd-be01-e835d8fa9597
+    PortName: Next Dialog
+    TargetNodeGuid: 165c9dd2-e919-4702-8b70-f691628052d1
+  - BaseNodeGuid: 165c9dd2-e919-4702-8b70-f691628052d1
+    PortName: No
+    TargetNodeGuid: a27b24e8-c985-4454-9e9c-b24f496367ba
+  - BaseNodeGuid: 165c9dd2-e919-4702-8b70-f691628052d1
+    PortName: Yes! I saw someone eating lamb!
+    TargetNodeGuid: bd8d4d37-3a2c-46a2-a9d2-5bc3cc571c1d
+  DialogNodes:
+  - Guid: 165c9dd2-e919-4702-8b70-f691628052d1
+    Content:
+      characterID: 680ed16b-e56f-4702-b0d4-2115aca4daae
+      emotion: 4
+      DialogText: Have you seen my little lambs?
+    Position: {x: 490, y: 141.5}
+    Type: 2
+    Choices:
+    - No
+    - Yes! I saw someone eating lamb!
+  - Guid: dd80e189-a621-42dd-be01-e835d8fa9597
+    Content:
+      characterID: 680ed16b-e56f-4702-b0d4-2115aca4daae
+      emotion: 3
+      DialogText: My lambs! Where are my lambs!
+    Position: {x: 221, y: 169}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: a27b24e8-c985-4454-9e9c-b24f496367ba
+    Content:
+      characterID: 680ed16b-e56f-4702-b0d4-2115aca4daae
+      emotion: 1
+      DialogText: My little babies!
+    Position: {x: 1168, y: 14}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: bd8d4d37-3a2c-46a2-a9d2-5bc3cc571c1d
+    Content:
+      characterID: 680ed16b-e56f-4702-b0d4-2115aca4daae
+      emotion: 2
+      DialogText: I'm happy someone gives them attention
+    Position: {x: 1168, y: 282}
+    Type: 1
+    Choices:
+    - Next Dialog

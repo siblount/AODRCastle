@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b1816fbaf783b8c458af9c8d25b3f0c4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - wordstext: {instanceID: 0}
+  - image: {instanceID: 0}
+  - Bard: {fileID: 11400000, guid: 928bdcc6e8ec3db4787c6b04c3bb27aa, type: 2}
+  - Barb: {fileID: 11400000, guid: 491c6f91868c0ae4f9e66a5c97e812d9, type: 2}
+  - DeathSpellsman: {fileID: 11400000, guid: ddc01b93e0edb6b4e83cc71329ef6a6f, type: 2}
+  - Paladin: {fileID: 11400000, guid: 6ed64c63f55f192478d11ce66814090c, type: 2}
+  - Marshall: {fileID: 11400000, guid: df5a0122b171d674bab4b0775d870e37, type: 2}
+  - Thief: {fileID: 11400000, guid: c34c3819e20eef446b8097870b642a6d, type: 2}
+  - thiscanvas: {instanceID: 0}
+  - pm: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

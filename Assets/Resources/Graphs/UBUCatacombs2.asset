@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: UBUCatacombs2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 179677f7-ba5f-4dac-8ba9-822b957f912b
+    PortName: Next
+    TargetNodeGuid: 8d65917e-58dd-47c6-9b7f-1cc4a46f7d84
+  - BaseNodeGuid: 61bcaa48-da28-4d61-8fbc-478e577d2142
+    PortName: We got Lucky
+    TargetNodeGuid: 5d450b37-5107-4189-9067-f620256f34dd
+  - BaseNodeGuid: 5d2cba31-4320-479b-b6f1-f9e67dd226e0
+    PortName: Next Dialog
+    TargetNodeGuid: 61bcaa48-da28-4d61-8fbc-478e577d2142
+  - BaseNodeGuid: da2c1c51-03ec-443c-919b-2cf204b0e252
+    PortName: Next Dialog
+    TargetNodeGuid: 64a119ab-0d15-470d-9e6d-c800655da234
+  - BaseNodeGuid: 64a119ab-0d15-470d-9e6d-c800655da234
+    PortName: Next Dialog
+    TargetNodeGuid: d376949d-1dd7-4e89-a499-0b0a2e588667
+  - BaseNodeGuid: d376949d-1dd7-4e89-a499-0b0a2e588667
+    PortName: Next Dialog
+    TargetNodeGuid: be2757ca-bec4-4f1f-9e55-a9b6f8bf6575
+  - BaseNodeGuid: 61bcaa48-da28-4d61-8fbc-478e577d2142
+    PortName: They're Unprepared
+    TargetNodeGuid: da2c1c51-03ec-443c-919b-2cf204b0e252
+  - BaseNodeGuid: 8d65917e-58dd-47c6-9b7f-1cc4a46f7d84
+    PortName: Catacombs? Here?
+    TargetNodeGuid: 8483ca7c-ac75-45a8-9eba-e09cccd704e5
+  - BaseNodeGuid: 8483ca7c-ac75-45a8-9eba-e09cccd704e5
+    PortName: Next Dialog
+    TargetNodeGuid: 960c3744-21cf-4e16-bdb0-b41b64802f40
+  - BaseNodeGuid: 960c3744-21cf-4e16-bdb0-b41b64802f40
+    PortName: Next Dialog
+    TargetNodeGuid: 3e8f2bc0-82f2-461b-b54c-74bf86c4f9ba
+  - BaseNodeGuid: 3e8f2bc0-82f2-461b-b54c-74bf86c4f9ba
+    PortName: Next Dialog
+    TargetNodeGuid: bc9250da-d4a4-406f-8163-bb3b0de9063c
+  - BaseNodeGuid: bc9250da-d4a4-406f-8163-bb3b0de9063c
+    PortName: Next Dialog
+    TargetNodeGuid: 5d2cba31-4320-479b-b6f1-f9e67dd226e0
+  - BaseNodeGuid: 8d65917e-58dd-47c6-9b7f-1cc4a46f7d84
+    PortName: 'You  Survived? '
+    TargetNodeGuid: d4fd6eec-a9e6-4765-9f91-f3564f92e537
+  - BaseNodeGuid: d4fd6eec-a9e6-4765-9f91-f3564f92e537
+    PortName: Next Dialog
+    TargetNodeGuid: de9650ee-1eb8-42e7-82c9-80c395712b0c
+  - BaseNodeGuid: de9650ee-1eb8-42e7-82c9-80c395712b0c
+    PortName: Next Dialog
+    TargetNodeGuid: ba115e38-9dc3-48d0-94ac-3c9f36335b6f
+  - BaseNodeGuid: ba115e38-9dc3-48d0-94ac-3c9f36335b6f
+    PortName: Next Dialog
+    TargetNodeGuid: 3dc74b3c-5f2c-4a7d-823e-aa9e5ad8b267
+  - BaseNodeGuid: 3dc74b3c-5f2c-4a7d-823e-aa9e5ad8b267
+    PortName: Next Dialog
+    TargetNodeGuid: d5598368-d967-40c6-b65b-cb8b6c26566f
+  - BaseNodeGuid: d5598368-d967-40c6-b65b-cb8b6c26566f
+    PortName: Next Dialog
+    TargetNodeGuid: 28155745-77ab-44fb-9582-0dc4318f2be9
+  - BaseNodeGuid: 28155745-77ab-44fb-9582-0dc4318f2be9
+    PortName: Next Dialog
+    TargetNodeGuid: 66d448f8-fa65-4ac7-975f-d178f6463c15
+  DialogNodes:
+  - Guid: 8d65917e-58dd-47c6-9b7f-1cc4a46f7d84
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: Time's dwindling.
+    Position: {x: 208.8, y: 276.80002}
+    Type: 2
+    Choices:
+    - 'You  Survived? '
+    - Catacombs? Here?
+  - Guid: 5d450b37-5107-4189-9067-f620256f34dd
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: Haha. Qlippoth Shines on us.
+    Position: {x: 3089.6, y: 584.8}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 61bcaa48-da28-4d61-8fbc-478e577d2142
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: Thoughts?
+    Position: {x: 2344.8, y: 339.2}
+    Type: 2
+    Choices:
+    - They're Unprepared
+    - We got Lucky
+  - Guid: 64a119ab-0d15-470d-9e6d-c800655da234
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: What else are they focusing on?
+    Position: {x: 3246.4, y: 241.59999}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: d376949d-1dd7-4e89-a499-0b0a2e588667
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: I hope its nothing too scary.
+    Position: {x: 3597.6, y: 241.59999}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: be2757ca-bec4-4f1f-9e55-a9b6f8bf6575
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: Anyway, good luck.
+    Position: {x: 3900.8, y: 241.59999}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: da2c1c51-03ec-443c-919b-2cf204b0e252
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: 'Possibly. But then the question is:'
+    Position: {x: 2889.6, y: 241.59999}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 8483ca7c-ac75-45a8-9eba-e09cccd704e5
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: We didn't want to attack this area.
+    Position: {x: 699.2, y: 339.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 960c3744-21cf-4e16-bdb0-b41b64802f40
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: I hope I don't need to tell you the danger of attacking
+    Position: {x: 1008.8, y: 339.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 3e8f2bc0-82f2-461b-b54c-74bf86c4f9ba
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: A LITERAL CATACOMB that belongs to a necromancer
+    Position: {x: 1345.6, y: 339.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: bc9250da-d4a4-406f-8163-bb3b0de9063c
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: But we managed to do pretty well Here.
+    Position: {x: 1704, y: 339.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 5d2cba31-4320-479b-b6f1-f9e67dd226e0
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: It looks like they expected an attack elsewere - probably the inner
+        Bailey
+    Position: {x: 2039.2, y: 339.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: d4fd6eec-a9e6-4765-9f91-f3564f92e537
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: I sat near the back. Once our boat slowed down I started channeling.
+    Position: {x: 585.6, y: -9.599999}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: de9650ee-1eb8-42e7-82c9-80c395712b0c
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: I knew something was off.
+    Position: {x: 900.8, y: -32}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: ba115e38-9dc3-48d0-94ac-3c9f36335b6f
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: My half of the boat split pretty easily and most of us landed on
+        the beach.
+    Position: {x: 1194.4, y: -32}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 3dc74b3c-5f2c-4a7d-823e-aa9e5ad8b267
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: My half of the boat split pretty easily and most of us landed on
+        the beach.
+    Position: {x: 1557.6, y: -32}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: d5598368-d967-40c6-b65b-cb8b6c26566f
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: The ones up front, like the archer, weren't so lucky.
+    Position: {x: 1897.6, y: -32.8}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 28155745-77ab-44fb-9582-0dc4318f2be9
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: The marshall is also out, so there goes the only guy who knows
+        what's going on
+    Position: {x: 2218.4, y: -32.8}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 66d448f8-fa65-4ac7-975f-d178f6463c15
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: Anyway, I lost track of the Barbarian here.
+    Position: {x: 2530.4, y: -45.6}
+    Type: 1
+    Choices:
+    - Next Dialog

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a31876320d82f045a05d8d21046b879, type: 3}
+  m_Name: Flame Slash Ability
+  m_EditorClassIdentifier: 
+  NameRaw: Flame Slash
+  Description: A swift and precise strike that deals moderate damage to a single
+    target.
+  Level: 1
+  Persistent: 0
+  AttackAbility: 1
+  UpgradeDescriptionsPerLevel:
+  - Increase <b>heat</b> production for every flame-slashing attack.
+  - Double <b>DMG</b>.
+  - Quadriple <b>DMG</b> and double <b>AP</b>.
+  AssociatedStatus: {fileID: 0}
+  AttackStats: {fileID: 11400000, guid: ef1ce345024e7f742b130b12e86e7cb7, type: 2}
+  WorkingAttackStats: {fileID: 0}
+  Owner:
+    ActiveStatuses: []
+    Stats: {fileID: 0}
+    health: 0
+    baseDamage: 0
+    maxHealth: 0
+    damageMultiplier: 1
+  FlameAbility: 1

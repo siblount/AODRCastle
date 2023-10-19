@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8ee0b2aedd3eaa45b0dda8ea69d2f48, type: 3}
+  m_Name: Bomb Ability
+  m_EditorClassIdentifier: 
+  NameRaw: Bomb
+  Description: A delayed explosion that damages both the user and the target after
+    3 turns.
+  Level: 1
+  Persistent: 1
+  AttackAbility: 1
+  UpgradeDescriptionsPerLevel: []
+  AssociatedStatus: {fileID: 11400000, guid: 5717cac74766cec45943c3f8550fa086, type: 2}
+  AttackStats: {fileID: 11400000, guid: 42a2cdc2914207a4cb8347efdb359eaa, type: 2}
+  WorkingAttackStats: {fileID: 0}
+  Owner:
+    ActiveStatuses: []
+    Stats: {fileID: 0}
+    health: 0
+    baseDamage: 0
+    maxHealth: 0
+    damageMultiplier: 1
+  TargettingTarget: 1

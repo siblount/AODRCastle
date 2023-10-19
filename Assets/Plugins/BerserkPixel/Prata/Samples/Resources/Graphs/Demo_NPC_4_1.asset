@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: Demo_NPC_4_1
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 37b06ade-2941-491f-9a06-289c43795ec4
+    PortName: Next
+    TargetNodeGuid: 165c9dd2-e919-4702-8b70-f691628052d1
+  - BaseNodeGuid: 165c9dd2-e919-4702-8b70-f691628052d1
+    PortName: Next Dialog
+    TargetNodeGuid: dd80e189-a621-42dd-be01-e835d8fa9597
+  - BaseNodeGuid: dd80e189-a621-42dd-be01-e835d8fa9597
+    PortName: Amazing!
+    TargetNodeGuid: bd8d4d37-3a2c-46a2-a9d2-5bc3cc571c1d
+  - BaseNodeGuid: dd80e189-a621-42dd-be01-e835d8fa9597
+    PortName: I'm bored
+    TargetNodeGuid: a27b24e8-c985-4454-9e9c-b24f496367ba
+  - BaseNodeGuid: bd8d4d37-3a2c-46a2-a9d2-5bc3cc571c1d
+    PortName: Next Dialog
+    TargetNodeGuid: 658ae1d3-32e9-4d9d-87fa-d17d9cca14bf
+  - BaseNodeGuid: a27b24e8-c985-4454-9e9c-b24f496367ba
+    PortName: Next Dialog
+    TargetNodeGuid: d1a33de6-7361-420a-9122-38a8b16d5e7f
+  DialogNodes:
+  - Guid: 165c9dd2-e919-4702-8b70-f691628052d1
+    Content:
+      characterID: 680ed16b-e56f-4702-b0d4-2115aca4daae
+      emotion: 0
+      DialogText: This is sequence #1.
+    Position: {x: 200.5, y: 147}
+    Type: 2
+    Choices:
+    - Next Dialog
+  - Guid: a27b24e8-c985-4454-9e9c-b24f496367ba
+    Content:
+      characterID: de9bc64b-3ecd-49b7-80f1-a72ea9267f72
+      emotion: 1
+      DialogText: I thought this was something else
+    Position: {x: 1102, y: 299}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: bd8d4d37-3a2c-46a2-a9d2-5bc3cc571c1d
+    Content:
+      characterID: de9bc64b-3ecd-49b7-80f1-a72ea9267f72
+      emotion: 2
+      DialogText: Sounds cool! Let's take a look
+    Position: {x: 1102, y: 86}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: d1a33de6-7361-420a-9122-38a8b16d5e7f
+    Content:
+      characterID: 680ed16b-e56f-4702-b0d4-2115aca4daae
+      emotion: 0
+      DialogText: I know. This is the end of sequence #1
+    Position: {x: 1382, y: 299}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 658ae1d3-32e9-4d9d-87fa-d17d9cca14bf
+    Content:
+      characterID: 680ed16b-e56f-4702-b0d4-2115aca4daae
+      emotion: 5
+      DialogText: This is the end of sequence #1
+    Position: {x: 1382, y: 86}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: dd80e189-a621-42dd-be01-e835d8fa9597
+    Content:
+      characterID: 680ed16b-e56f-4702-b0d4-2115aca4daae
+      emotion: 4
+      DialogText: After this conversation you can come back and see sequence #2
+    Position: {x: 568, y: 167}
+    Type: 1
+    Choices:
+    - Amazing!
+    - I'm bored

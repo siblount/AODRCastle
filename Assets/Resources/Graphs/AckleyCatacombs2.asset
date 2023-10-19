@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: AckleyCatacombs2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 179677f7-ba5f-4dac-8ba9-822b957f912b
+    PortName: Next
+    TargetNodeGuid: a9e2d9d2-9de3-400b-906e-2764cd2e5e60
+  - BaseNodeGuid: a9e2d9d2-9de3-400b-906e-2764cd2e5e60
+    PortName: Why are you here?
+    TargetNodeGuid: 11d27ce4-a84e-4cd1-ae12-f405a0bcba8d
+  - BaseNodeGuid: 11d27ce4-a84e-4cd1-ae12-f405a0bcba8d
+    PortName: Next Dialog
+    TargetNodeGuid: 7ff2ef45-e3cb-4f45-b0bc-1dc018ee621a
+  - BaseNodeGuid: 7ff2ef45-e3cb-4f45-b0bc-1dc018ee621a
+    PortName: Next Dialog
+    TargetNodeGuid: f6b4009d-1b73-4435-b1a0-35ba57b46a55
+  - BaseNodeGuid: a9e2d9d2-9de3-400b-906e-2764cd2e5e60
+    PortName: You can help me!
+    TargetNodeGuid: 83849582-a584-446a-95eb-a3e2ae458b08
+  - BaseNodeGuid: 83849582-a584-446a-95eb-a3e2ae458b08
+    PortName: Next Dialog
+    TargetNodeGuid: d1366e07-0329-4f74-9c07-ada69019962b
+  DialogNodes:
+  - Guid: a9e2d9d2-9de3-400b-906e-2764cd2e5e60
+    Content:
+      characterID: 1ef74cc7-3194-4c69-8d69-f33a3b5cc1b8
+      emotion: 0
+      DialogText: Yes?
+    Position: {x: 276, y: 113.59999}
+    Type: 2
+    Choices:
+    - Why are you here?
+    - You can help me!
+  - Guid: 11d27ce4-a84e-4cd1-ae12-f405a0bcba8d
+    Content:
+      characterID: 1ef74cc7-3194-4c69-8d69-f33a3b5cc1b8
+      emotion: 0
+      DialogText: Prison battalion.
+    Position: {x: 835.2, y: -69.6}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 7ff2ef45-e3cb-4f45-b0bc-1dc018ee621a
+    Content:
+      characterID: 1ef74cc7-3194-4c69-8d69-f33a3b5cc1b8
+      emotion: 0
+      DialogText: "And before you ask, I\u2019m not violent. I\u2019m a lover not
+        a fighter."
+    Position: {x: 1111.2, y: -69.6}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: f6b4009d-1b73-4435-b1a0-35ba57b46a55
+    Content:
+      characterID: 1ef74cc7-3194-4c69-8d69-f33a3b5cc1b8
+      emotion: 0
+      DialogText: I said the wrong thing to the duke... and here I am.
+    Position: {x: 1496, y: -69.6}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 83849582-a584-446a-95eb-a3e2ae458b08
+    Content:
+      characterID: 1ef74cc7-3194-4c69-8d69-f33a3b5cc1b8
+      emotion: 0
+      DialogText: Eeek! No!
+    Position: {x: 916, y: 248.8}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: d1366e07-0329-4f74-9c07-ada69019962b
+    Content:
+      characterID: 1ef74cc7-3194-4c69-8d69-f33a3b5cc1b8
+      emotion: 0
+      DialogText: Companions are going to be added in version 19.2 release 35 season
+        8 with the battlepass, trust (TM).
+    Position: {x: 1208, y: 248.8}
+    Type: 1
+    Choices:
+    - Next Dialog

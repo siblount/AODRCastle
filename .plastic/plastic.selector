@@ -1,0 +1,4 @@
+repository "Zynga 2023 Project@zynga2023proj@cloud"
+  path "/"
+    smartbranch "/main"              
+     

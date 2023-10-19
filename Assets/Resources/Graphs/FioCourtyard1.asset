@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: FioCourtyard1
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 179677f7-ba5f-4dac-8ba9-822b957f912b
+    PortName: Next
+    TargetNodeGuid: 6c58448c-2ec6-4ba6-9eed-d976484fa2d2
+  - BaseNodeGuid: 6c58448c-2ec6-4ba6-9eed-d976484fa2d2
+    PortName: Next Dialog
+    TargetNodeGuid: b621ad07-4c55-4118-bb15-6d34575a8269
+  - BaseNodeGuid: b621ad07-4c55-4118-bb15-6d34575a8269
+    PortName: Next Dialog
+    TargetNodeGuid: d9b74836-4117-4882-956d-0b78f11fd9d3
+  DialogNodes:
+  - Guid: 6c58448c-2ec6-4ba6-9eed-d976484fa2d2
+    Content:
+      characterID: 3a250c8b-e1fe-4468-bf6f-bd0a64660add
+      emotion: 0
+      DialogText: Oh hey! You found my hiding spot!
+    Position: {x: 212, y: 86.399994}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: b621ad07-4c55-4118-bb15-6d34575a8269
+    Content:
+      characterID: 3a250c8b-e1fe-4468-bf6f-bd0a64660add
+      emotion: 0
+      DialogText: Well, it probably wasn't much of a challenge.
+    Position: {x: 489.6, y: 67.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: d9b74836-4117-4882-956d-0b78f11fd9d3
+    Content:
+      characterID: 3a250c8b-e1fe-4468-bf6f-bd0a64660add
+      emotion: 0
+      DialogText: I'll stay here with Uchukowazi while you guys storm the tower.
+    Position: {x: 815.2, y: 67.2}
+    Type: 1
+    Choices:
+    - Next Dialog

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: Demo_NPC_4_2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 37b06ade-2941-491f-9a06-289c43795ec4
+    PortName: Next
+    TargetNodeGuid: 3da90f7b-5da0-4084-9157-bb93a9cdbb76
+  - BaseNodeGuid: 3da90f7b-5da0-4084-9157-bb93a9cdbb76
+    PortName: Next Dialog
+    TargetNodeGuid: 2222e037-aa64-4608-8789-c5f75df1912d
+  - BaseNodeGuid: 2222e037-aa64-4608-8789-c5f75df1912d
+    PortName: Next Dialog
+    TargetNodeGuid: 637b6f1e-4fc5-41d4-bbea-3716e1691004
+  DialogNodes:
+  - Guid: 3da90f7b-5da0-4084-9157-bb93a9cdbb76
+    Content:
+      characterID: 680ed16b-e56f-4702-b0d4-2115aca4daae
+      emotion: 2
+      DialogText: Good to see you again! This is sequence #2
+    Position: {x: 224.5, y: 146}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 2222e037-aa64-4608-8789-c5f75df1912d
+    Content:
+      characterID: 680ed16b-e56f-4702-b0d4-2115aca4daae
+      emotion: 4
+      DialogText: As you see, first it was sequence #1 and now is this one!
+    Position: {x: 578.5, y: 146}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 637b6f1e-4fc5-41d4-bbea-3716e1691004
+    Content:
+      characterID: 680ed16b-e56f-4702-b0d4-2115aca4daae
+      emotion: 5
+      DialogText: Well... this is the end now
+    Position: {x: 985.5, y: 146}
+    Type: 1
+    Choices:
+    - Next Dialog

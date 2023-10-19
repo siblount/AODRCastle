@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45253a315d872b4aafa24a068db8851, type: 3}
+  m_Name: Guard Ability
+  m_EditorClassIdentifier: 
+  NameRaw: Guard
+  Description: Brace yourself for the next incoming attack and reduce its damage.
+  Level: 1
+  Persistent: 1
+  AttackAbility: 0
+  UpgradeDescriptionsPerLevel:
+  - Increases <b>heat</b> production by a small amount.
+  - Decreases <b>heat</b> production by a moderate amount.
+  - Guard <b>negates</b> all incoming damage.
+  AssociatedStatus: {fileID: 0}
+  AttackStats: {fileID: 0}
+  WorkingAttackStats: {fileID: 0}
+  Owner:
+    ActiveStatuses: []
+    Stats: {fileID: 0}
+    health: 0
+    baseDamage: 0
+    maxHealth: 0
+    damageMultiplier: 1

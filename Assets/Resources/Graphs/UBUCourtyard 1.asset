@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: UBUCourtyard 1
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 3ee05442-5a0c-4a8e-b672-3e36c294dd79
+    PortName: Next
+    TargetNodeGuid: eb85736b-b425-48d6-a67a-23983eaf984a
+  - BaseNodeGuid: 038b38c2-b247-4d94-ae2f-79462a5ff586
+    PortName: Next Dialog
+    TargetNodeGuid: 7293a38d-9d1e-49ef-9bb6-d51f3cd1c0a0
+  - BaseNodeGuid: 7293a38d-9d1e-49ef-9bb6-d51f3cd1c0a0
+    PortName: Next Dialog
+    TargetNodeGuid: 14a31b26-1bdc-4adf-a0d1-6f25db490272
+  - BaseNodeGuid: 14a31b26-1bdc-4adf-a0d1-6f25db490272
+    PortName: Next Dialog
+    TargetNodeGuid: d395e128-005e-43d8-86f6-b6f0efdf79af
+  - BaseNodeGuid: eb14062c-4403-425d-bb02-de25d0866824
+    PortName: Next Dialog
+    TargetNodeGuid: 846969be-8709-4a43-a4cf-be7ebb17ad1b
+  - BaseNodeGuid: 0f7c6b1e-855d-4a3e-ac8f-dede3b54dd26
+    PortName: Next Dialog
+    TargetNodeGuid: 24bec6dc-0637-4226-b5a5-91cdaf5b512d
+  - BaseNodeGuid: eb85736b-b425-48d6-a67a-23983eaf984a
+    PortName: How's everyone doing back there?
+    TargetNodeGuid: 038b38c2-b247-4d94-ae2f-79462a5ff586
+  - BaseNodeGuid: eb85736b-b425-48d6-a67a-23983eaf984a
+    PortName: Who's Next for us to save?
+    TargetNodeGuid: eb14062c-4403-425d-bb02-de25d0866824
+  - BaseNodeGuid: 846969be-8709-4a43-a4cf-be7ebb17ad1b
+    PortName: Next Dialog
+    TargetNodeGuid: 0f7c6b1e-855d-4a3e-ac8f-dede3b54dd26
+  DialogNodes:
+  - Guid: eb85736b-b425-48d6-a67a-23983eaf984a
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: We're running low on time.
+    Position: {x: 192, y: 87.2}
+    Type: 2
+    Choices:
+    - Who's Next for us to save?
+    - How's everyone doing back there?
+  - Guid: 7293a38d-9d1e-49ef-9bb6-d51f3cd1c0a0
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: I was able to treat the barbarian and the bard pretty easily.
+    Position: {x: 1228, y: 264}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 14a31b26-1bdc-4adf-a0d1-6f25db490272
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: I buffed them too. It'll only last a bit
+    Position: {x: 1626.4, y: 292}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: d395e128-005e-43d8-86f6-b6f0efdf79af
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: All the more reason to get going
+    Position: {x: 2036, y: 232.8}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 846969be-8709-4a43-a4cf-be7ebb17ad1b
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: Besides the golem right right there, I think they've done a good
+        job.
+    Position: {x: 1306.4, y: -20.8}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 24bec6dc-0637-4226-b5a5-91cdaf5b512d
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: Our thief is right next to the golem. She can't kill it, and needs
+        some help.
+    Position: {x: 2056.8, y: -69.6}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 038b38c2-b247-4d94-ae2f-79462a5ff586
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: They're alright.
+    Position: {x: 916.8, y: 207.2}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: eb14062c-4403-425d-bb02-de25d0866824
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: The strategy was to rush the castle, but for some people to stay
+        back in the courtyard and deal with the stronger enemies.
+    Position: {x: 945.6, y: -36}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 0f7c6b1e-855d-4a3e-ac8f-dede3b54dd26
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: Theres another spellsword user, just like you. There's also the
+        archer.
+    Position: {x: 1703.2, y: -69.6}
+    Type: 1
+    Choices:
+    - Next Dialog

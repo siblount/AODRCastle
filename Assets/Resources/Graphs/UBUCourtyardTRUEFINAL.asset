@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: UBUCourtyardTRUEFINAL
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 3ee05442-5a0c-4a8e-b672-3e36c294dd79
+    PortName: Next
+    TargetNodeGuid: 2a83636a-98de-4b38-97a6-f7da3a8527fa
+  - BaseNodeGuid: 2a83636a-98de-4b38-97a6-f7da3a8527fa
+    PortName: Next Dialog
+    TargetNodeGuid: 329f29b2-d031-459f-b7ff-04d047abc0ab
+  - BaseNodeGuid: 329f29b2-d031-459f-b7ff-04d047abc0ab
+    PortName: Next Dialog
+    TargetNodeGuid: bccf5052-391d-4c51-96d0-ef15d8fc2686
+  DialogNodes:
+  - Guid: 2a83636a-98de-4b38-97a6-f7da3a8527fa
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: Fresh air! Way better than those stuffy catacombs.
+    Position: {x: 247.2, y: 86.399994}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 329f29b2-d031-459f-b7ff-04d047abc0ab
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: I'm still hurt, I won't be much help in a fight now.
+    Position: {x: 690.4, y: 113.59999}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: bccf5052-391d-4c51-96d0-ef15d8fc2686
+    Content:
+      characterID: 5ae64f54-34e4-468f-97fe-c13421d1796c
+      emotion: 0
+      DialogText: In fact, this is probably as far as I'll go... Good luck.
+    Position: {x: 1099.2, y: 104.8}
+    Type: 1
+    Choices:
+    - Next Dialog
